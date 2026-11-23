@@ -1,0 +1,22 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+script = "script"
+solc_version = "0.8.29"
+optimizer = true
+optimizer_runs = 200
+remappings = [
+    "@reactive/=src/reactive/",
+]
+
+# Reactive Omni networks (see README for faucet + deployment guide)
+# Lasna testnet: chain 5318007, RPC https://lasna-rpc.rnk.dev/
+# Base Sepolia:  chain 84532,   RPC https://sepolia.base.org
+# Unichain Sepolia: chain 1301, RPC https://sepolia.unichain.org
+
+[rpc_endpoints]
+lasna = "https://lasna-rpc.rnk.dev/"
+base_sepolia = "https://sepolia.base.org"
+unichain_sepolia = "https://sepolia.unichain.org"

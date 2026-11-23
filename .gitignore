@@ -1,0 +1,16 @@
+# Foundry
+out/
+cache/
+broadcast/
+lib/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets / local config
+.env
+*.key
+
+# OS
+.DS_Store
