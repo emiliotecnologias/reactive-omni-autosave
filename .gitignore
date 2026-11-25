@@ -11,6 +11,7 @@ __pycache__/
 # Secrets / local config
 .env
 *.key
+.testnet-wallet.txt
 
 # OS
 .DS_Store
